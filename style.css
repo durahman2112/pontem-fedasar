@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+
+* {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+}
+h2 {
+  background: #ff6600;
+  color: white;
+}
+.black-text {
+  color: black;
+}
+
+#blue {
+  background-color: blue;
+  color: rgb(145, 255, 0);
+}
+
+#main {
+  background: #d8d8d8;
+  padding: 20px;
+  margin: 12px;
+  border: 10px dashed black;
+}
+.heading-1 {
+  color: orange;
+  font-size: 72px;
+}
+
+.paragraf-1 {
+  color: rgb(156, 102, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#submain {
+  margin: 24px;
+}
+
+#main p {
+  background: blue;
+}
+
+.btn {
+  background: #000080;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #ff6600;
+  cursor: pointer;
+}
+
+#flex {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  flex-direction: column-reverse;
+}
+
+.kuning {
+  flex-grow: 1;
+  background-color: yellow;
+}
+
+.hijau {
+  flex-grow: 5;
+  background-color: green;
+}
+
+.biru {
+  flex-grow: 3;
+  background-color: blue;
+}
